@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  font-family: sans-serif;
+  color:black;
+
+}
+
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.logo{
+	width:120px;
+}
+
+/* HERO IMAGE */
+.hero_content{
+	font-size:16px;
+	text-align: left;
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 27px;
+}
+
+.hero_content img{
+	width:100%;
+	height:auto;
+}
+
+/* 6 IMAGES OF NATIONAL PARKS */
+
+.mimg{
+	max-width:160px;
+	height: auto;
+}
+
+
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+   
+}
