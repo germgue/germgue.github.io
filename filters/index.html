@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: contrast(90%) brightness(180%) saturate(0%); 
+      filter: contrast(90%) brightness(180%) saturate(0%);
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 8s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: contrast(50%) brightness(100%) saturate(200%); 
+	        filter: contrast(50%) brightness(100%) saturate(200%));
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/flower.jpg" alt="flower">
+
+</body>
+</html>
